@@ -5,12 +5,16 @@ local?
     I personally see remote repo as a backup too, because if your computer burns down, you
     can get a new one and clone repo to resume working! :) So in my opinion, one should make
     it a habit to commit every logical change to local repo and push it straight away to remote
-    repo. 
+    repo.
 
 Why might you want to always pull changes manually rather than having Git
 automatically stay up-to-date with your remote repository?
 
-    Fill in your answer here
+    The most important reason is to be able to choose which local branch you want
+    to pull changes to. It is possible that on remote repo there is only 'master'
+    branch, but locally you are working on an experimental branch, where you need
+    new changes. Also sometimes you just want to create another branch and pull
+    changes to just see if all is good and then proceed further by merging.
 
 Describe the differences between forks, clones, and branches.  When would you
 use one instead of another?
