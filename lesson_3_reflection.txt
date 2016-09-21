@@ -52,4 +52,14 @@ and what would be harder?
 When would you want to make changes in a separate branch rather than directly in
 master?  What benefits does each approach have?
 
-    Fill in your answer here
+    When one is not sure if the changes will break the master code or not, one
+    should make changes to a separate branch and get opinion from other team
+    members by creating a pull request. This will avoid the pain created by
+    accidentally changing master and rendering it useless and then spending time
+    to fix it. Moreover, with changes in other branch being made by multiple team
+    members simultaneously, it is easier to moderate changes and only merge
+    pull requests which are correct.
+
+    Making a direct change to master is good when you're not working in a team
+    and changes are made to documentation e.g. Readme.md file or adding comment
+    in code, etc.  
