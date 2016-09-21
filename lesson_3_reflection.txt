@@ -34,7 +34,9 @@ use one instead of another?
 What is the benefit of having a copy of the last known state of the remote
 stored locally?
 
-    Fill in your answer here
+    One can compare how many commits are missing or outstanding between local and
+    remote copy of repo. Also keeping a local copy helps decide Git if the 'git pull'
+    will result in a fast forward merge or not.
 
 How would you collaborate without using Git or GitHub?  What would be easier,
 and what would be harder?
